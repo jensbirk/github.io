@@ -1,0 +1,88 @@
+ /*fonts */
+ @font-face {
+   font-family: Naumann;
+   src: url('../fonts/Nauman-Regular.otf') format("opentype");
+  }
+
+/*menu tekst*/
+a{
+  color: #333;
+  margin-top: 0.2em;
+  margin-bottom: auto;
+  text-align: center;
+  transform: translateY(-10%);
+  margin-left: 1em;
+  font-family: Naumann;
+
+}
+
+a:hover{
+  color: red;
+
+/*logo*/
+}
+
+object{
+margin-left: 1em;
+
+}
+/*menu padding*/
+dd.menu{
+  margin-left: -4em;
+  margin-top: 0.22em;
+  float: left;
+}
+
+/*menu vaffel*/
+.menu{
+float: right;
+margin-top: 1em;
+margin-right: 8em;
+}
+
+/*pics*/
+.img1{
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-bottom: 2%;
+  position: relative;
+  z-index: -1;
+
+}
+
+
+
+.img2{
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-bottom: 2%;
+  position: relative;
+  z-index: -1;
+}
+
+/*bokse*/
+
+.boks1{
+  display: none;
+
+}
+
+.footer{
+
+  font-family: Naumann;
+  font-size: 11px;
+  float: right;
+  padding-right: 4%;
+  color: #333;
+
+}
+.northoinc{
+  color: red;
+}
+
+.social{
+  padding-top: 4%;
+  padding-bottom: 8%;
+  margin-bottom: 4%;
+
+}
